@@ -1,3 +1,4 @@
+import br.dio.desafio.dominio.Conteudo;
 import br.dio.desafio.dominio.Curso;
 import br.dio.desafio.dominio.Mentoria;
 
@@ -10,9 +11,6 @@ public class Main {
         ment.setTitulo("Java");
         ment.setDescricao("Muito bom");
         ment.setData(LocalDate.now());
-
-
-
 
         Curso curso1 = new Curso();
         curso1.setTitulo("Java");
